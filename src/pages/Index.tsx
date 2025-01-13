@@ -7,6 +7,7 @@ import Marketplace from '@/components/Marketplace';
 import Social from '@/components/Social';
 import Contact from '@/components/Contact';
 import FloatingSakura from '@/components/FloatingSakura';
+import Version from '@/components/Version';
 
 const Index = () => {
   return (
@@ -19,6 +20,7 @@ const Index = () => {
       <Marketplace />
       <Social />
       <Contact />
+      <Version />
     </div>
   );
 };
