@@ -2,15 +2,60 @@ import React from "react";
 import Section from "./Section";
 
 const marketplaces = [
-  { title: "Solscan", logo: "/solscan.png", url: "https://solscan.io/", isActive: true },
-  { title: "CoinMarketCap", logo: "/cmc.png", url: "https://coinmarketcap.com/", isActive: false },
-  { title: "Pump.fun", logo: "/pumpfun.png", url: "https://pump.fun/", isActive: true },
-  { title: "Bybit", logo: "/bybit.png", url: "https://www.bybit.com/", isActive: false },
-  { title: "Dexscreener", logo: "/dexscreener.png", url: "https://dexscreener.com/", isActive: false },
-  { title: "Raydium", logo: "/raydium.png", url: "https://raydium.io/", isActive: false },
-  { title: "MEXC", logo: "/mexc.svg", url: "https://www.mexc.com/", isActive: false },
-  { title: "BITGET", logo: "/bitget.png", url: "https://www.bitget.com/", isActive: false },
-  { title: "COINEX", logo: "/coinex.png", url: "https://www.coinex.com/", isActive: false },
+  {
+    title: "Solscan",
+    logo: "/solscan.png",
+    url: "https://solscan.io/",
+    isActive: true,
+  },
+  {
+    title: "CoinMarketCap",
+    logo: "/cmc.png",
+    url: "https://coinmarketcap.com/",
+    isActive: false,
+  },
+  {
+    title: "Pump.fun",
+    logo: "/pumpfun.png",
+    url: "https://pump.fun/",
+    isActive: true,
+  },
+  {
+    title: "Bybit",
+    logo: "/bybit.png",
+    url: "https://www.bybit.com/",
+    isActive: false,
+  },
+  {
+    title: "Dexscreener",
+    logo: "/dexscreener.png",
+    url: "https://dexscreener.com/",
+    isActive: false,
+  },
+  {
+    title: "Raydium",
+    logo: "/raydium.png",
+    url: "https://raydium.io/",
+    isActive: false,
+  },
+  {
+    title: "MEXC",
+    logo: "/mexc.svg",
+    url: "https://www.mexc.com/",
+    isActive: false,
+  },
+  {
+    title: "BITGET",
+    logo: "/bitget.png",
+    url: "https://www.bitget.com/",
+    isActive: false,
+  },
+  {
+    title: "COINEX",
+    logo: "/coinex.png",
+    url: "https://www.coinex.com/",
+    isActive: false,
+  },
 ];
 
 const Marketplace = () => {
@@ -19,9 +64,12 @@ const Marketplace = () => {
       <h2 className="text-3xl font-bold text-center text-violet-dark mb-10">
         Get $VIOLETAI
       </h2>
+      <h2 className="text-xl font-bold text-center text-violet-dark mb-10">
+        CA: 
+      </h2>
 
       <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
-        {marketplaces.map((market, index) => (
+        {marketplaces.map((market, index) =>
           market.isActive ? (
             <a
               key={market.title}
@@ -58,7 +106,7 @@ const Marketplace = () => {
               <span className="text-lg font-medium">{market.title}</span>
             </div>
           )
-        ))}
+        )}
       </div>
     </Section>
   );

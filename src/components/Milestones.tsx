@@ -5,24 +5,38 @@ const Milestones = () => {
   const milestones = [
     {
       title: "Raydium Listing",
-      description: "First major milestone: Getting listed on Raydium",
+      description:
+        "Achieved first major milestone with our official listing on Raydium, marking the start of our exciting journey!",
       completed: true,
+    },
+    {
+      title: "$10M Market Cap",
+      description:
+        "Celebrated $10M market cap with an exclusive community giveaway and reward.",
+      completed: false,
+    },
+    {
+      title: "$50M Market Cap",
+      description:
+        "Launched a massive airdrop campaign to celebrate our $50M market cap and give back to the community that helped us grow!",
+      completed: false,
     },
     {
       title: "$100M Market Cap",
       description:
-        "Reaching $100M market cap and centralized exchange listings",
+        "Reaching the $100M market cap and making waves in the industry with our centralized exchange listings.",
       completed: false,
     },
     {
       title: "$300M Market Cap",
       description:
-        "Reaching $300M market cap, getting listed on top-tiered centralized exchange and SR Limited NFT rewards distribution",
+        "With a $300M market cap, we’re preparing for top-tier centralized exchange listings and launching UR Limited NFT rewards to top holders!",
       completed: false,
     },
     {
       title: "$1B Market Cap",
-      description: "Achieving $1B market cap",
+      description:
+        "Achieving the monumental $1B market cap and delivering VioletAI as a super-intelligent AI that pushes the boundaries of technology as physical AI.",
       completed: false,
     },
   ];
