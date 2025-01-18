@@ -3,6 +3,8 @@ import Section from "./Section";
 
 const Hero = () => {
   const [streamError, setStreamError] = useState(false);
+  const currentDomain = window.location.hostname;
+  const iframeSrc = `https://player.twitch.tv/?channel=violetai_iseekaigo&parent=${currentDomain}`;
 
   const handleStreamError = () => {
     setStreamError(true);
@@ -47,7 +49,7 @@ const Hero = () => {
           </div>
         ) : (
           <iframe
-            src="https://player.twitch.tv/?channel=violetai_iseekaigo&parent=www.violetai.iseekaigo.com"
+            src={iframeSrc}
             frameBorder="0"
             allowFullScreen
             scrolling="no"
