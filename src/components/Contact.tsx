@@ -16,7 +16,7 @@ const Contact = () => {
       <div className="text-center text-white relative z-10">
         <h2 className="text-3xl font-bold mb-6">Are you a VC looking to invest?</h2>
         <a
-          href="mailto:contact.iseekaigo@gmail.com"
+          href="mailto:contact@iseekaigo.com"
           className="inline-block px-8 py-4 bg-white text-violet font-bold rounded-lg hover:bg-violet-light transition-colors duration-300"
         >
           Get in Touch
