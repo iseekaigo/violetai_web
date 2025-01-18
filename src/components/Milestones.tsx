@@ -39,6 +39,12 @@ const Milestones = () => {
         "Achieving the monumental $1B market cap and delivering VioletAI as a super-intelligent AI that pushes the boundaries of technology as physical AI.",
       completed: false,
     },
+    {
+      title: "$10B Market Cap",
+      description:
+        "Our next target is a $10B market cap, where we aim to establish VioletAI as a legendary (LR) character. To achieve this, we will burn all undistributed NFTs, ensuring that VioletAI is exclusively obtainable through in-game actions or trading, creating a truly unique and valuable asset in the Iseekaigo universe.",
+      completed: false,
+    },
   ];
 
   return (

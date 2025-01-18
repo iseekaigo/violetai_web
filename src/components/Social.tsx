@@ -1,9 +1,30 @@
 const Social = () => {
   const socialLinks = [
-    { href: "https://www.twitch.tv/violetai_iseekaigo", src: "/twitch.svg", alt: "Twitch" },
-    { href: "https://x.com/VioletAi_chan", src: "/twitter.svg", alt: "Twitter" },
-    { href: "t.me/violetai_iseekaigo_hub", src: "/telegram.svg", alt: "Telegram" },
-    { href: "https://discord.gg/hpmEhtCbRY", src: "/discord.svg", alt: "Discord" },
+    {
+      href: "https://www.twitch.tv/violetai_iseekaigo",
+      src: "/twitch.svg",
+      alt: "Twitch",
+    },
+    {
+      href: "https://x.com/VioletAi_chan",
+      src: "/twitter.svg",
+      alt: "Twitter",
+    },
+    {
+      href: "t.me/violetai_iseekaigo_hub",
+      src: "/telegram.svg",
+      alt: "Telegram",
+    },
+    {
+      href: "https://discord.gg/hpmEhtCbRY",
+      src: "/discord.svg",
+      alt: "Discord",
+    },
+    {
+      href: "https://github.com/iseekaigo/violetai_notes",
+      src: "/github.svg",
+      alt: "Github",
+    },
   ];
 
   return (

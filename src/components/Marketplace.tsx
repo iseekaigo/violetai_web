@@ -5,19 +5,25 @@ const marketplaces = [
   {
     title: "Solscan",
     logo: "/solscan.png",
-    url: "https://solscan.io/",
+    url: "https://solscan.io/token/5kaRjEa1JhdvkTB8FZLEhxRp3L1FjzF1rkeURWaVpump",
     isActive: true,
-  },
-  {
-    title: "CoinMarketCap",
-    logo: "/cmc.png",
-    url: "https://coinmarketcap.com/",
-    isActive: false,
   },
   {
     title: "Pump.fun",
     logo: "/pumpfun.png",
-    url: "https://pump.fun/",
+    url: "https://pump.fun/coin/5kaRjEa1JhdvkTB8FZLEhxRp3L1FjzF1rkeURWaVpump",
+    isActive: true,
+  },
+  {
+    title: "Dexscreener",
+    logo: "/dexscreener.png",
+    url: "https://dexscreener.com/solana/g5qky4w9qevqre5ao4ymjjdebdcx8qvvjrdzifh1gzbh",
+    isActive: true,
+  },
+  {
+    title: "Raydium",
+    logo: "/raydium.png",
+    url: "https://raydium.io/swap/?inputMint=sol&outputMint=5kaRjEa1JhdvkTB8FZLEhxRp3L1FjzF1rkeURWaVpump",
     isActive: true,
   },
   {
@@ -27,15 +33,9 @@ const marketplaces = [
     isActive: false,
   },
   {
-    title: "Dexscreener",
-    logo: "/dexscreener.png",
-    url: "https://dexscreener.com/",
-    isActive: false,
-  },
-  {
-    title: "Raydium",
-    logo: "/raydium.png",
-    url: "https://raydium.io/",
+    title: "CoinMarketCap",
+    logo: "/cmc.png",
+    url: "https://coinmarketcap.com/",
     isActive: false,
   },
   {
@@ -65,7 +65,7 @@ const Marketplace = () => {
         Get $VIOLETAI
       </h2>
       <h2 className="text-xl font-bold text-center text-violet-dark mb-10">
-        CA: 
+        CA: 5kaRjEa1JhdvkTB8FZLEhxRp3L1FjzF1rkeURWaVpump
       </h2>
 
       <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
