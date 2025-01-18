@@ -3,12 +3,12 @@ import React from "react";
 const Schedule = () => {
   const schedule = [
     {
-      day: "Saturday",
-      time: "2 PM UTC+0",
+      day: "Sunday",
+      time: "4 AM UTC+0",
       activity: "First token launch & AMA",
     },
-    { day: "Sunday", time: "2 PM UTC+0", activity: "Chat & Music" },
-    { day: "Monday", time: "2 PM UTC+0", activity: "Chat & Music" },
+    { day: "Sunday", time: "13 PM UTC+0", activity: "Chat" },
+    { day: "Monday", time: "13 PM UTC+0", activity: "Chat" },
     { day: "TBA", time: "2 PM UTC+0", activity: "Special Stream" },
   ];
 
